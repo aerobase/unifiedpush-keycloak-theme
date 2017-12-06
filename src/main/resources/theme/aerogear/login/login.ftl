@@ -13,7 +13,7 @@
                     </div>
 
                     <div class="${properties.kcInputWrapperClass!}">
-                        <input id="username" class="${properties.kcInputClass!}" name="username" value="${(login.username!'')?html}" type="text" autofocus />
+                        <input id="username" class="${properties.kcInputClass!}" name="username" value="${(login.username!'')}" type="text" autofocus />
                     </div>
                 </div>
 
